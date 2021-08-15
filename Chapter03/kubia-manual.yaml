@@ -4,8 +4,11 @@ metadata:
   name: kubia-manual
 spec:
   containers:
-  - image: luksa/kubia
-    name: kubia
-    ports:
-    - containerPort: 8080
-      protocol: TCP
+    # - image: luksa/kubia
+    # we're going to use the container built locally
+    - image: kubia
+      name: kubia
+      imagePullPolicy: "Never"
+      ports:
+        - containerPort: 8080
+          protocol: TCP

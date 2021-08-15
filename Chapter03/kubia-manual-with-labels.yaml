@@ -3,12 +3,16 @@ kind: Pod
 metadata:
   name: kubia-manual-v2
   labels:
+    # labels are key-value pairs
     creation_method: manual
     env: prod
 spec:
   containers:
-  - image: luksa/kubia
-    name: kubia
+    # - image: luksa/kubia
+    # we're going to use the container built locally
+    - image: kubia
+      name: kubia
+      imagePullPolicy: "Never"
     ports:
     - containerPort: 8080
       protocol: TCP

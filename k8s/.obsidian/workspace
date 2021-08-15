@@ -6,13 +6,27 @@
       {
         "id": "90d4b3bf9888b176",
         "type": "leaf",
+        "dimension": 67.33624454148472,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "chapter3-running-containers-in-k8s.md",
+            "file": "chapter4-replication-and-other-controllers.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "12e4771f7b4c0075"
+      },
+      {
+        "id": "3c08aca07a001b6b",
+        "type": "leaf",
+        "dimension": 32.66375545851528,
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "chapter4-replication-and-other-controllers.md"
+          }
+        },
+        "group": "12e4771f7b4c0075"
       }
     ],
     "direction": "vertical"
@@ -68,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapter3-running-containers-in-k8s.md",
+                "file": "chapter4-replication-and-other-controllers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -76,6 +90,16 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "495092dca7d20564",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "chapter4-replication-and-other-controllers.md"
               }
             }
           }
@@ -88,6 +112,8 @@
   },
   "active": "90d4b3bf9888b176",
   "lastOpenFiles": [
-    "Untitled.md"
+    "Untitled.md",
+    "chapter3-running-containers-in-k8s.md",
+    "chapter2-docker and k8s.md"
   ]
 }

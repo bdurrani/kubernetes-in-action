@@ -12,7 +12,10 @@ spec:
         app: kubia
     spec:
       containers:
-      - name: kubia
-        image: luksa/kubia
-        ports:
-        - containerPort: 8080
+        # - image: luksa/kubia
+        # we're going to use the container built locally
+        - image: kubia
+          name: kubia
+          imagePullPolicy: "Never"
+          ports:
+            - containerPort: 8080
